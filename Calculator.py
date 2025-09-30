@@ -16,7 +16,7 @@ operations = {
 }
 def calculator():
     should_accumulate = True
-    print(art.logo)
+    print(art_calculator.logo)
     num1 = int(input("What's the first digit? "))
     while should_accumulate:
         for symbol in operations:
