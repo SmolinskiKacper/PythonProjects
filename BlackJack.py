@@ -1,6 +1,4 @@
 import random
-from art_blackjack.py import logo
-
 
 def deal_card():
     deck_of_cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
@@ -71,3 +69,4 @@ def game():
 while input("Do you want to play? type 'y' for yes or 'n' for no ") == "y":
 
     game()
+
