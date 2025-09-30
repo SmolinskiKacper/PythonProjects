@@ -1,4 +1,4 @@
-import art_calculator.py
+import art_calculator
 def add(n1, n2):
     return n1 + n2
 def subtract(n1, n2):
