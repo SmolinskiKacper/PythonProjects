@@ -1,5 +1,5 @@
 import random
-from art import logo
+from art_blackjack.py import logo
 
 
 def deal_card():
@@ -69,4 +69,5 @@ def game():
     print(compare(player_score, dealer_score))
 
 while input("Do you want to play? type 'y' for yes or 'n' for no ") == "y":
+
     game()
